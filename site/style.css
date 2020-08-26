@@ -1,137 +1,87 @@
-
-
-
-*{
-	box-sizing: border-box;
+/** HEADER **/
+#header-nav {
+    background-color: grey;
+    border-radius: 0;
+    border: 0;
 }
 
-h1 {
-	margin-bottom: 15px;
+.pull-left {
+    float: left;
 }
 
-p {
-	border: 1px solid black;
-	border-top: none;
-	background-color: grey;
-	width: 100%;
-	margin-right: auto; 
-	margin-left: auto;
-	margin-top: auto;
-	margin-bottom: auto; 
-	font-family: Helvetica;
-	color: white;
+.navbar-brand {
+    padding-top: 40px;
+    height: 100px;
 }
 
-
-.row {
-	width: 100%;
+.navbar-brand h1 { /*Restaurant name*/
+    color: black;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
 }
 
-/***Desktop view***/
-
-@media (min-width: 992px)
-{ 
-	.col-lg-3 {
-		float: left;
-		border: 2px solid black;
-		margin-left: 90px;
-	}
-
-
-.col-lg-3 {
-	width: 25%;
-}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
 }
 
-/***Tablet view***/
-
-@media (min-width: 768px) and (max-width:991px)
-{ 
-	.col-md-6
-	{
-		float: left;
-	}
-
-
-.col-md-6 {
-	width: 50%;
+#nav-list {
+  margin-top: 10px;
 }
+#nav-list a {
+  color: #951C49;
+  text-align: center;
 }
-
-
-/***Mobile view***/
-
-@media (max-width:767px)
-{ 
-	.col-sm-12
-	{
-		float: left;
-	}
-
-
-.col-sm-12 {
-	width: 100%;
+#nav-list a:hover {
+  background: #E7E7E7;
 }
+#nav-list a span {
+  font-size: 1.8em;
 }
 
-
-/***Title***/
-
-.menu {
-	text-align: center;
-	padding-top: 40px;
-	padding-bottom: 55px;
+#phone {
+  margin-top: 5px;
+}
+#phone a { /* Phone number */
+  text-align: right;
+  padding-bottom: 0;
+}
+#phone div { /* We Deliver */
+  color: #557c3e;
+  text-align: right;
+  padding-right: 15px;
 }
 
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid black;
+  }
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -65px;
+  }
+  
 
 
-/***Item***/
+  .navbar-brand h1 {
+    text-align: left;
+  }
 
-.item1 {
-	position: relative;
-	left: 75%;
-	text-align: center;
-	background: red;
-	border-left: 2px solid black;
-	border-bottom: 2px solid black;
-	width: 25%;
-	height: 30px;
-	padding: 4px;
-}
+  .title {
+      text-align: center;
+      padding-bottom: 40px;
+      font-weight: bold;
+  }
 
+  .container {
+      background-color: grey;
+      width: 97%;
+  }
 
-.item2 {
-	position: relative;
-	left: 75%;
-	text-align: center;
-	background: orange;
-	border-left: 2px solid black;
-	border-bottom: 2px solid black;
-	width: 25%;
-	height: 30px;
-	padding: 4px;
-	color: white;
-}
-
-.item3 {
-	position: relative;
-	left: 75%;
-	text-align: center;
-	background: yellow;
-	border-left: 2px solid black;
-	border-bottom: 2px solid black;
-	width: 25%;
-	height: 30px;
-	padding: 4px;
-}
-
-/***Paragraph***/
-
-.par {
-	padding: 15px;
-	background: #ddd;
-	color: black;
-}
-
-
-
+  h2 {
+    text-align: center;
+    font-weight: bold;
+  }
